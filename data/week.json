@@ -1,0 +1,30 @@
+{
+    "app_id": "aa8caaa30b9cfad8e9b095d0ed40",
+    "collection_id": "a294aaa30baccaf7b7c6ebb0a2f501",
+    "items": [
+        {
+            "start_date": "2017-12-11T00:00:00Z",
+            "user_id": "f1fb6653-ff52-4203-945b-45654a82acd4"
+        },
+        {
+            "start_date": "2017-12-05T00:00:00Z",
+            "user_id": "f1fb6653-ff52-4203-945b-45654a82acd4"
+        }
+    ],
+    "name": "week",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "start_date",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "user_id",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
