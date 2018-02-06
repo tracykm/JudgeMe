@@ -1,0 +1,26 @@
+{
+    "app_id": "aa8caaa30b9cfad8e9b095d0ed40",
+    "collection_id": "cea5aaa30bb6cfe9c5fac4e2dfa101",
+    "items": [
+        {
+            "watched_id": "f1fb6653-ff52-4203-945b-45654a82acd4",
+            "watcher_id": "f1fb6653-ff52-4203-945b-45654a82acd4"
+        }
+    ],
+    "name": "users_watching",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "watcher_id",
+            "ColumnType": "uuid",
+            "PK": false
+        },
+        {
+            "ColumnName": "watched_id",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
