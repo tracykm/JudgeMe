@@ -1,0 +1,64 @@
+{
+    "Description": "Default role that is applied to all authenticated users",
+    "ID": "Authenticated",
+    "Name": "Authenticated",
+    "Permissions": {
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "CreateNewGoal",
+                "SystemKey": "aa8caaa30b9cfad8e9b095d0ed40"
+            },
+            {
+                "Level": 1,
+                "Name": "getThisWeekGoals",
+                "SystemKey": "aa8caaa30b9cfad8e9b095d0ed40"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "ee8caaa30b9885e9f5f9ba8ae320",
+                "Items": [],
+                "Level": 15,
+                "Name": "goal"
+            },
+            {
+                "Columns": [],
+                "ID": "c69daaa30bfccde7aba0f8f1d140",
+                "Items": [],
+                "Level": 15,
+                "Name": "user"
+            },
+            {
+                "Columns": [],
+                "ID": "cea5aaa30bb6cfe9c5fac4e2dfa101",
+                "Items": [],
+                "Level": 15,
+                "Name": "users_watching"
+            },
+            {
+                "Columns": [],
+                "ID": "a294aaa30baccaf7b7c6ebb0a2f501",
+                "Items": [],
+                "Level": 15,
+                "Name": "week"
+            }
+        ],
+        "DevicesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 15
+        },
+        "Portals": [],
+        "Push": {
+            "Level": 0
+        },
+        "SystemServices": null,
+        "Topics": [],
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
