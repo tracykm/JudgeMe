@@ -1,0 +1,8 @@
+{
+    "api": "",
+    "dependencies": "clearblade,http",
+    "description": "",
+    "name": "SendSMS",
+    "version": 6,
+    "visibility": "system"
+}
