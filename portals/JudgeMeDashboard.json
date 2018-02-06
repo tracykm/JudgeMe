@@ -1,0 +1,560 @@
+{
+    "config": {
+        "cols": {
+            "lg": 12,
+            "md": 10,
+            "sm": 6,
+            "xs": 4,
+            "xxs": 2
+        },
+        "currentBreakpointForFlyoutWidgets": "lg",
+        "currentBreakpointForPanes": "lg",
+        "currentBreakpointsForWidgets": {
+            "e8e5da6d-0fe0-4a7f-932f-d205710cf2d6": "md"
+        },
+        "datasources": {
+            "3e513bd9-996d-428c-a4c6-ab522b1eefc5": {
+                "id": "3e513bd9-996d-428c-a4c6-ab522b1eefc5",
+                "name": "CreateNewGoal",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "CreateNewGoal",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "9bddb0e3-05cf-4169-8d46-d9222835d03d": {
+                "id": "9bddb0e3-05cf-4169-8d46-d9222835d03d",
+                "name": "currentGoals",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "TOPIC_NAME": "currentGoals"
+                },
+                "type": "CB_MESSAGE_TOPIC"
+            },
+            "9dfce3d0-e4d4-4906-9959-c50e3c9c0e42": {
+                "id": "9dfce3d0-e4d4-4906-9959-c50e3c9c0e42",
+                "name": "getThisWeekGoals",
+                "settings": {
+                    "CALL_ON_LOAD": true,
+                    "SUPPRESS_DATASOURCE_ERRORS": false,
+                    "code_name": "getThisWeekGoals",
+                    "payload": "{}",
+                    "refresh_interval": 0
+                },
+                "type": "CB_CODE_SERVICE"
+            },
+            "f100a3f9-9331-48ce-b60f-2721e408cd01": {
+                "id": "f100a3f9-9331-48ce-b60f-2721e408cd01",
+                "name": "localVar",
+                "settings": {},
+                "type": "LOCAL_DATASOURCE_PLUGIN"
+            }
+        },
+        "externalScripts": [],
+        "flyoutWidgetLayout": {
+            "lg": [],
+            "md": [],
+            "sm": [],
+            "xs": [],
+            "xxs": []
+        },
+        "headerWidgetLayout": {
+            "lg": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 42,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 46,
+                    "x": 185,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 36,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 39,
+                    "x": 154,
+                    "y": 0
+                }
+            ],
+            "sm": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 34,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 37,
+                    "x": 117,
+                    "y": 0
+                }
+            ],
+            "xs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 28,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 31,
+                    "x": 71,
+                    "y": 0
+                }
+            ],
+            "xxs": [
+                {
+                    "h": 1,
+                    "i": "brand",
+                    "moved": false,
+                    "static": false,
+                    "w": 32,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "h": 1,
+                    "i": "title",
+                    "moved": false,
+                    "static": false,
+                    "w": 33,
+                    "x": 47,
+                    "y": 0
+                }
+            ]
+        },
+        "pages": {
+            "Home": {
+                "children": [],
+                "defaultValue": "",
+                "href": "",
+                "id": "Home",
+                "isChild": false,
+                "isParam": false,
+                "name": "Home",
+                "path": ""
+            }
+        },
+        "paneGridWidgetLayouts": {
+            "e8e5da6d-0fe0-4a7f-932f-d205710cf2d6": {
+                "lg": [
+                    {
+                        "h": 9,
+                        "i": "bdd4c4dc-8197-45ad-9a3b-6b66c5a30006",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "31cf21a6-ba6e-40dc-9aaf-5dc660e6f0ee",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "md": [
+                    {
+                        "h": 9,
+                        "i": "bdd4c4dc-8197-45ad-9a3b-6b66c5a30006",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "h": 9,
+                        "i": "31cf21a6-ba6e-40dc-9aaf-5dc660e6f0ee",
+                        "minH": 3,
+                        "moved": false,
+                        "static": false,
+                        "w": 10,
+                        "x": 0,
+                        "y": 9
+                    }
+                ],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "paneLayouts": {
+            "Home": {
+                "lg": [
+                    {
+                        "h": 2,
+                        "i": "ab5881d7-0d4a-489b-a71e-33d446284420",
+                        "w": 12,
+                        "x": 0,
+                        "y": 0
+                    }
+                ],
+                "md": [],
+                "sm": [],
+                "xs": [],
+                "xxs": []
+            }
+        },
+        "panes": {
+            "ab5881d7-0d4a-489b-a71e-33d446284420": {
+                "customPaneId": "",
+                "header": {
+                    "hide": false,
+                    "title": ""
+                },
+                "hiddenBreakpoints": {},
+                "hideBorders": false,
+                "id": "ab5881d7-0d4a-489b-a71e-33d446284420",
+                "pageId": "Home",
+                "tabInfo": {
+                    "activeTab": "e8e5da6d-0fe0-4a7f-932f-d205710cf2d6",
+                    "tabIds": [
+                        "e8e5da6d-0fe0-4a7f-932f-d205710cf2d6"
+                    ],
+                    "tabTitles": {
+                        "e8e5da6d-0fe0-4a7f-932f-d205710cf2d6": "DOUBLE CLICK"
+                    },
+                    "tabbed": false
+                },
+                "themeType": "primary"
+            }
+        },
+        "savedPortalExists": true,
+        "theme": {
+            "graph": {
+                "four": "#E8E7C6",
+                "one": "#6E8592",
+                "three": "#DBA5A8",
+                "two": "#6E93A8"
+            },
+            "info": {
+                "display_name": "Standard",
+                "name": "STANDARD_THEME"
+            },
+            "items": {
+                "main": {
+                    "header": {
+                        "burgerBars": {
+                            "fontColor": "#f5f5f5"
+                        },
+                        "dropdown": {
+                            "fontColor": "#f5f5f5",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "styles": {
+                            "backgroundColor": "#6e8592"
+                        }
+                    },
+                    "panes": {
+                        "flyout": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            }
+                        },
+                        "primary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#6e8592"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#9db5c2",
+                                "fontColor": "#000000"
+                            }
+                        },
+                        "secondary": {
+                            "body": {
+                                "backgroundColor": "#f5f5f5"
+                            },
+                            "header": {
+                                "backgroundColor": "#9db5c2"
+                            },
+                            "tabs": {
+                                "activeTabUnderlineColor": "#425864",
+                                "backgroundColor": "#6e8592",
+                                "fontColor": "#000000"
+                            }
+                        }
+                    },
+                    "portal": {
+                        "styles": {
+                            "backgroundColor": "#ffffff"
+                        }
+                    },
+                    "widgets": {
+                        "BAR_CHART_WIDGET_COMPONENT": {
+                            "barColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ],
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000"
+                        },
+                        "BUTTON_WIDGET_COMPONENT": {
+                            "backgroundColor": "#f5f5f5",
+                            "backgroundHoverColor": "#c2c2c2",
+                            "borderColor": "#cccccc",
+                            "fontColor": "#000000"
+                        },
+                        "GOOGLE_MAP_WIDGET_COMPONENT": {
+                            "mapTheme": ""
+                        },
+                        "LINE_CHART_WIDGET_COMPONENT": {
+                            "brushStroke": "#6e8592",
+                            "legendColor": "#000000",
+                            "lineColors": [
+                                {
+                                    "stroke": "#6E8592"
+                                },
+                                {
+                                    "stroke": "#6E93A8"
+                                },
+                                {
+                                    "stroke": "#DBA5A8"
+                                },
+                                {
+                                    "stroke": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "LIST_WIDGET_COMPONENT": {
+                            "activeFontColor": "#000000",
+                            "activeItemBackgroundColor": "#6e8592",
+                            "fontColor": "#000000",
+                            "listItemBackgroundColor": "#ffffff",
+                            "titleColor": "#000000"
+                        },
+                        "PIE_CHART_WIDGET_COMPONENT": {
+                            "cells": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "RADIAL_GAUGE_WIDGET_COMPONENT": {
+                            "backgroundColor": "#c2c2c2",
+                            "progressColor": "#6e8592"
+                        },
+                        "SPEEDOMETER_WIDGET": {
+                            "arrowColor": "#000000",
+                            "sectionColors": [
+                                {
+                                    "fill": "#6E8592"
+                                },
+                                {
+                                    "fill": "#6E93A8"
+                                },
+                                {
+                                    "fill": "#DBA5A8"
+                                },
+                                {
+                                    "fill": "#E8E7C6"
+                                }
+                            ]
+                        },
+                        "TEXT_WIDGET_COMPONENT": {
+                            "fontColor": "#000000",
+                            "fontFamily": "Helvetica",
+                            "fontSize": 18
+                        },
+                        "TOGGLE_WIDGET": {
+                            "backgroundColor": "#c2c2c2",
+                            "fontColor": "#000000",
+                            "offColor": "#ffffff",
+                            "onColor": "#6e8592"
+                        }
+                    }
+                }
+            },
+            "palette": {
+                "darkPrimary": "#c2c2c2",
+                "darkSecondary": "#425864",
+                "defaultPrimary": "#f5f5f5",
+                "defaultSecondary": "#6e8592",
+                "lightPrimary": "#ffffff",
+                "lightSecondary": "#9db5c2",
+                "primaryText": "#000000",
+                "secondaryText": "#000000"
+            }
+        },
+        "upgradesPerformed": {
+            "flyoutTitleUpgrade": true,
+            "headerBrandUpgrade": true,
+            "headerTitleUpgrade": true,
+            "widgetResizeUpgrade": true
+        },
+        "widgets": {
+            "31cf21a6-ba6e-40dc-9aaf-5dc660e6f0ee": {
+                "externalScripts": [],
+                "id": "31cf21a6-ba6e-40dc-9aaf-5dc660e6f0ee",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "backgroundColor": "#f5f5f5",
+                    "backgroundHoverColor": "#c2c2c2",
+                    "borderColor": "#cccccc",
+                    "eventTarget": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "force_data": [
+                            "DYNAMIC_DATA_TYPE"
+                        ],
+                        "id": "f100a3f9-9331-48ce-b60f-2721e408cd01",
+                        "outgoing_parser": {
+                            "isDebugOn": false,
+                            "value": "datasources.CreateNewGoal.sendData().then((d) =\u003e {\n    console.log(d);\n})\n\nreturn this.widget;"
+                        }
+                    },
+                    "fontColor": "#000000",
+                    "label": "Click me"
+                },
+                "tab": "e8e5da6d-0fe0-4a7f-932f-d205710cf2d6",
+                "type": "BUTTON_WIDGET_COMPONENT"
+            },
+            "bdd4c4dc-8197-45ad-9a3b-6b66c5a30006": {
+                "externalScripts": [],
+                "id": "bdd4c4dc-8197-45ad-9a3b-6b66c5a30006",
+                "props": {
+                    "HAS_UNIQUE_STYLE": false,
+                    "fontColor": "#000000",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "DYNAMIC_DATA_TYPE",
+                        "id": "9bddb0e3-05cf-4169-8d46-d9222835d03d",
+                        "incoming_parser": {
+                            "isDebugOn": false,
+                            "value": "return JSON.parse(this.datasource)"
+                        }
+                    }
+                },
+                "tab": "e8e5da6d-0fe0-4a7f-932f-d205710cf2d6",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "brand": {
+                "externalScripts": [],
+                "id": "brand",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "STATIC_DATA_TYPE",
+                        "value": "ClearBlade"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "flyoutTitle": {
+                "externalScripts": [],
+                "id": "flyoutTitle",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Helvetica",
+                    "fontSize": 30,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "type": "TEXT_WIDGET_COMPONENT"
+            },
+            "title": {
+                "externalScripts": [],
+                "id": "title",
+                "props": {
+                    "HAS_UNIQUE_STYLE": true,
+                    "fontColor": "#fff",
+                    "fontFamily": "Trebuchet MS",
+                    "fontSize": 18,
+                    "textContent": {
+                        "dataType": "CALCULATED_DATA_TYPE",
+                        "value": "return portalTitle"
+                    }
+                },
+                "tab": "HEADER",
+                "type": "TEXT_WIDGET_COMPONENT"
+            }
+        }
+    },
+    "description": null,
+    "last_updated": "19 Dec 17 02:38 UTC",
+    "name": "JudgeMeDashboard",
+    "system_key": "aa8caaa30b9cfad8e9b095d0ed40",
+    "type": "v2"
+}
