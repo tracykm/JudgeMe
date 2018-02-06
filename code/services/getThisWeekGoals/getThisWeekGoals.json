@@ -1,0 +1,13 @@
+{
+    "current_version": 24,
+    "dependencies": "log",
+    "logging_enabled": "false",
+    "name": "getThisWeekGoals",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "getThisWeekGoals.js"
+}
