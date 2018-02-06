@@ -1,0 +1,10 @@
+{
+    "current_version": 41,
+    "dependencies": "clearblade,SendSMS",
+    "logging_enabled": "false",
+    "name": "CreateNewWeek",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "CreateNewWeek.js"
+}
