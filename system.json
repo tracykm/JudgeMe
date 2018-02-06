@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "",
+    "messaging_url": "messaging.clearblade.com:1883",
+    "name": "JudgeMe",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "aa8caaa30b9cfad8e9b095d0ed40",
+    "system_secret": "AA8CAAA30BFCD98FEDD3B9BACC9101"
+}
