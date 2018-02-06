@@ -1,0 +1,42 @@
+{
+    "app_id": "aa8caaa30b9cfad8e9b095d0ed40",
+    "collection_id": "c69daaa30bfccde7aba0f8f1d140",
+    "items": [
+        {
+            "name": "Colleen",
+            "opted_for_judgement": false,
+            "phone": "512-799-6752"
+        },
+        {
+            "name": "Kakii",
+            "opted_for_judgement": false,
+            "phone": "512-796-7561"
+        },
+        {
+            "name": "Tracy",
+            "opted_for_judgement": true,
+            "phone": "512-689-1979"
+        }
+    ],
+    "name": "user",
+    "permissions": {
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "phone",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "opted_for_judgement",
+            "ColumnType": "bool",
+            "PK": false
+        }
+    ]
+}
