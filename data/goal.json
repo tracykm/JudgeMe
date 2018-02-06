@@ -1,0 +1,94 @@
+{
+    "app_id": "aa8caaa30b9cfad8e9b095d0ed40",
+    "collection_id": "ee8caaa30b9885e9f5f9ba8ae320",
+    "items": [
+        {
+            "completed": null,
+            "timeconsumingness": 1,
+            "title": "sdfasd",
+            "unpleasantness": 1,
+            "week_id": "5077d0e0-b40c-4d3c-a217-9c4ef116fc36"
+        },
+        {
+            "completed": null,
+            "timeconsumingness": 1,
+            "title": "sdfasd",
+            "unpleasantness": 1,
+            "week_id": "5077d0e0-b40c-4d3c-a217-9c4ef116fc36"
+        },
+        {
+            "completed": false,
+            "timeconsumingness": 1,
+            "title": "Filling out insurance paperwork",
+            "unpleasantness": 3,
+            "week_id": "5077d0e0-b40c-4d3c-a217-9c4ef116fc36"
+        },
+        {
+            "completed": null,
+            "timeconsumingness": 1,
+            "title": "sdfasd",
+            "unpleasantness": 1,
+            "week_id": "5077d0e0-b40c-4d3c-a217-9c4ef116fc36"
+        },
+        {
+            "completed": false,
+            "timeconsumingness": 2,
+            "title": "Getting new drivers license",
+            "unpleasantness": 2,
+            "week_id": "5077d0e0-b40c-4d3c-a217-9c4ef116fc36"
+        },
+        {
+            "completed": false,
+            "timeconsumingness": 1,
+            "title": "Putting up rice contact paper",
+            "unpleasantness": 1,
+            "week_id": "5077d0e0-b40c-4d3c-a217-9c4ef116fc36"
+        },
+        {
+            "completed": true,
+            "timeconsumingness": 2,
+            "title": "Make colleen's present",
+            "unpleasantness": 2,
+            "week_id": "9f5f0c73-c150-4dbc-897e-532a089f7198"
+        },
+        {
+            "completed": null,
+            "timeconsumingness": 1,
+            "title": "sdfasd",
+            "unpleasantness": 1,
+            "week_id": "5077d0e0-b40c-4d3c-a217-9c4ef116fc36"
+        }
+    ],
+    "name": "goal",
+    "permissions": {
+        "Anonymous": 15,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "title",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "unpleasantness",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "timeconsumingness",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "completed",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "week_id",
+            "ColumnType": "uuid",
+            "PK": false
+        }
+    ]
+}
