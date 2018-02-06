@@ -1,0 +1,10 @@
+{
+    "current_version": 9,
+    "dependencies": "http,clearblade",
+    "logging_enabled": "false",
+    "name": "SendText",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "SendText.js"
+}
