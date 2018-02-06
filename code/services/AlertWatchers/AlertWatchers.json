@@ -1,0 +1,12 @@
+{
+    "current_version": 214,
+    "dependencies": "clearblade,SendSMS,getThisWeekGoals,getWatchers",
+    "logging_enabled": "false",
+    "name": "AlertWatchers",
+    "params": [
+        "userId"
+    ],
+    "permissions": {},
+    "run_user": "",
+    "source": "AlertWatchers.js"
+}
